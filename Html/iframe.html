@@ -1,0 +1,80 @@
+<!--Day 3-->
+
+<!DOCTYPE html> <!--DOCTYPE Represent current version of html file-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">    <!--This specifies the character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--1.meta tag used for responsive behaviour 2.used to provide additional info-->
+    <title>Document</title> <!--To white the title of web page-->
+</head>
+<body>
+    <!--Iframe tag-->
+    <!--Nested Webpage-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DLR0SN2sB4Q?si=2XOFxra6cEPPFCGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60539.19779115265!2d73.89821905357783!3d18.49724954328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e9ff81f1aae9%3A0x2560343555ac8b53!2sHadapsar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1786597594000!5m2!1sen!2sin" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <!--Table Tag-->
+    <table rules="all" border="1px" bgcolor="Pink" cellpadding="10px" cellspacing="20px">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>ABC</td>
+            <td>5K</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>DEF</td>
+            <td>6K</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>GHI</td>
+            <td>5K</td>
+        </tr>
+    </table>
+
+    <table rules="all" border="1px" bgcolor="Pink" cellpadding="10px" cellspacing="20px">
+        <tr>
+            <th>Id</th>
+            <th>Name></th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td colspan="2">A</td>
+            <!-- <td>3k</td> -->
+        </tr>
+        <tr>
+            <!-- <td>02</td> -->
+            <td colspan="2">B</td>
+            <td rowspan="2">4K</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>C</td>
+            <!-- <td>5K</td> -->
+
+        </tr>
+    </table>
+
+    <table rules="all" border="1px" bgcolor="Pink" cellpadding="10px" cellspacing="20px">
+        <tr>
+            <td colspan="2" bgcolor="blue">We are</th>
+            <td rowspan="2" bgcolor="yellow">developer</td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="green">developer</td>
+            <td>Frontend</td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="red">We are</td>
+        </tr>
+                
+    </table>
+</body>
+</html>
+
