@@ -1,0 +1,28 @@
+/* Simple selector  */
+/* 1. Id selector.- It will target unique element and id name we can use only once. Denoted by #. */
+#h77{
+    color:chartreuse
+}
+/* 2. Class selector.- Denoted by Dot (.). It will target multiple HTML element and class name we can use multiple or n number of time. */
+.c1{
+    color: coral;
+}
+/* 3. Tagname Selector. (<>).- We can target directly their tagname. */
+/* 4. Grouping Selector.- Here we make a group of selectors for designing purpose. */
+#h77,.c1,h1,h4{
+    font-variant: small-caps;
+}
+/* 5. Universal Selector.- We can target entire webpage. */
+*{
+    background-color: cyan;
+    /*background: radial-gradient(white,orange);
+    height: 50vh;
+    width: 70%*/
+}
+/* Combinator Selector  */
+
+
+/* Pseudo Class Selector  */
+
+
+/* Pseudo element selector  */
