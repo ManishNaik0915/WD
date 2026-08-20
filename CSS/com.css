@@ -1,0 +1,21 @@
+/*Day 7*/
+
+/*Descedent Combinator Selector*/
+div p{
+    color:red;
+}
+
+/*Child Combinator Selector*/
+div>p{
+    font-variant: small-caps;
+}
+
+/*Adjacent Combinator Selector*/
+div+p{
+    color:green;
+}
+
+/*General Combinator Selector*/
+div~p{
+    background-color: pink;
+}
