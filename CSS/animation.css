@@ -1,0 +1,55 @@
+/* Day 9 */
+
+div{
+    height: 350px;
+    width: 350px;
+    background-color: coral;
+    animation: xyz 5s ease 5s infinite;
+    /* opacity: 0.6; */
+}
+section{
+
+    height: 90vh;
+    width: 90%;
+}
+@keyframes xyz {
+    0%{
+        transform: rotate(45deg);
+        /* border-radius: 30px; */
+        background: linear-gradient(purple,black);
+        margin-top: 90px;
+        margin-left: 90px;
+        opacity: 1.5;
+    }
+    20%{
+        transform: rotate(90deg);
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background: linear-gradient(brown,black);
+        margin-top: 90px;
+        margin-left: 90px;
+    }
+    40%{
+        transform: rotate(180deg);
+        border-radius: 600px;
+        background: linear-gradient(rbg(49,3,49),green,pink);
+        /* margin-top: 250px;
+        margin-left: 250px; */
+        /* transform: scale(1.5); */
+    }
+    60%{
+        transform: rotate(270deg);
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        background: linear-gradient(rbg(49,3,49),rbg(202,143,143),rgb(255, 0, 43));
+        transform: skew(45drg);
+        box-shadow: 20px 30px 20px 30px  blue;
+    }
+    80%{
+        transform: rotate(360deg);
+        border-radius: 170px;
+        background: linear-gradient(grey,black);
+        margin-left: 150px;
+        transform: skew(180deg);
+    } 
+}
