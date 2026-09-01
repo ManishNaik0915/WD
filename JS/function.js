@@ -1,4 +1,4 @@
-//Day
+//Day 13
 
 //Named function
 function add(a,b){
@@ -11,7 +11,7 @@ add(10,20);
     console.log(a+b);
 })(10,20);
 
-//IIF
+//IIF (Immediate Invoke Function)
 (function add(a,b){
     console.log(a+b);
 }
